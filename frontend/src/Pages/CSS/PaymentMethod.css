@@ -1,0 +1,62 @@
+.paymentmethod{
+    width: 100%;
+    height: 100vh;
+    background: #fce3fe;
+    padding-top: 100px;
+}
+.paymentmethod-container{
+    width: 580px;
+    /* height: 400px; */
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+}
+.paymentmethod-container h1{
+    margin: 20px 0px;
+}
+.paymentmethod-radio{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 30px;
+}
+.paymentmethod-container button {
+    width: 580px;
+    height: 72px;
+    color: white;
+    background: #b47d2a;
+    margin-top: 30px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+@media(max-width:1280px){
+    .paymentmethod{
+        padding-top: 50PX;
+    }
+    .paymentmethod-container{
+        width: auto;
+        max-width: 500PX;
+        max-height: 500px;
+    }
+    .paymentmethod-container h1{
+        margin: 10px 0px;
+    }
+    .paymentmethod-radio{
+        gap: 20px;
+        margin-top: 20px;
+    }
+    
+}
+@media(max-width:800px){
+    .paymentmethod-container{
+        padding: 20px 30px;
+    }
+    .paymentmethod-container h1{
+        font-size: 14px;
+    }
+    .paymentmethod-radio{
+        margin-top: 20px;
+    }
+}

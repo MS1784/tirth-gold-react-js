@@ -1,0 +1,153 @@
+.placeorder {
+    margin: 100px 170px;
+  }
+  .placeorder hr {
+    height: 3px;
+    background: #e2e2e2;
+    border: 0;
+  }
+  .placeorder-format-main {
+    display: grid;
+    grid-template-columns: 05fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 75px;
+    padding: 20px 0px;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .placeorder-format{
+      font-size: 17px;
+      font-weight: 500;
+  }
+  .placeorder-quantity{
+      height: 62px;
+  }
+  .placeorder-product-icon{
+    width: 150px;
+    height: 150px;
+  }
+  .placeorder-remove-icon{
+      width: 15px;
+      margin: 0px 40px;
+      cursor: pointer;
+  }
+  .placeorder-quantity{
+      width: 64px;
+      height: 50px;
+      border: 2px solid #ebebeb;
+      background: #fff;
+  }
+  .placeorder-down{
+      display: flex;
+      margin: 100px 0px;
+  }
+  .placeorder-total{
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      margin-right: 200px;
+      gap: 40px;
+  }
+  .placeorder-total-item{
+      display: flex;
+      justify-content: space-between;
+      padding: 15px 0px;
+  }
+  .placeorder-total button{
+      width: 262px;
+      height: 58px;
+      outline: none;
+      border: none;
+      background: #ff5a5a;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+  }
+  .placeorder-promocode{
+      flex: 1;
+      font-size: 16px;
+      font-weight: 500;
+  }
+  .placeorder-promocode p{
+      color: #555;
+  }
+  .placeorder-promobox{
+      width: 504px;
+      margin-top: 15px;
+      padding-left: 20px;
+      height: 58px;
+      background: #eaeaea;
+  }
+  .placeorder-promobox input{
+      border: none;
+      outline: none;
+      background: transparent;
+      font-size: 16px;
+      width: 330px;
+      height: 50px;
+  }
+  .placeorder-promobox button{
+      width: 170px;
+      height: 58px;
+      font-size: 16px;
+      background: black;
+      color: white;
+      cursor: pointer;
+  }
+  @media(max-width:1280px){
+      .placeorder{
+          margin: 60px 50px;
+      }
+      .placeorder-format-main{
+          grid-template-columns: 0.5fr 3fr 0.5fr 0.5fr 0.5fr 0.5fr;
+          gap: 20px;
+          padding: 15px 0px;
+          font-size: 15px;
+      }
+      .carticon-product-icon{
+          height: 50px;
+      }
+      .placeorder-remove-icon{
+          margin: auto;
+      }
+      .placeorder-quantity{
+          width: 40px;
+          height: 30px;
+      }
+      .placeorder-down{
+          margin: 80px 0px;
+          flex-direction: column;
+          gap: 80px;
+      }
+      .placeorder-total{
+          margin: 0;
+      }
+      .placeorder-total button{
+          max-width: 200px;
+          height: 45px;
+          font-size: 13px;
+      }
+      .placeorder-promobox{
+          width: auto;
+          max-width: 500px;
+      }
+      .placeorder-promobox input{
+          width: 100%;
+      }
+      .placeorder-promobox button{
+          width: 120px;
+          margin-left: -125px;
+      }
+  }
+  @media(max-width:500px){
+      .placeorder-format-main{
+          display: none; 
+          grid-template-columns: 0.5fr 3fr 0.5fr;
+          gap: 10px;
+      }
+      .placeorder-format{
+          display: grid;
+      }
+  }

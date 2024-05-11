@@ -1,0 +1,19 @@
+.collections-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.collections-button div{
+    display: flex;  
+    margin: 50px;
+}
+.collections-button div button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B47D2A;
+    height: 105px;
+    border-radius: 18px;
+    border: none;
+    padding: 3px;
+}

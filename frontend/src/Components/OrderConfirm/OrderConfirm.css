@@ -1,0 +1,23 @@
+.orderconfirm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 50px;
+}
+.orderconfirm h1 {
+    margin-left: 50px;
+}
+.orderconfirm-btn button{
+    width: 262px;
+    height: 58px;
+    outline: none;
+    border: none;
+    background: #ff5a5a;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 50px;
+}

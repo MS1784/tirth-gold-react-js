@@ -1,0 +1,33 @@
+.about-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    gap: 20px;
+}
+.about-two-left img{
+    width: 500px;
+    height: 500px;
+}
+.about-two-right h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    padding: 40px;
+}
+.about-two-right p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.about-two-sarvice{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+.aobut-two-icon{
+    margin-left: 50px;
+    display: flex;
+    /* grid-column: 2;
+    grid-template-rows: 2fr 2fr 2fr 2fr ; */
+}
